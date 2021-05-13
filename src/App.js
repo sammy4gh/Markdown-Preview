@@ -2,7 +2,7 @@ import './App.css';
 import Editor from "./Editor"
 import Preview from './Preview'
 import {useState} from "react";
-import marked from 'marked';
+
 
 function App() {
     const initialState = `# Welcome to my React Markdown Previewer!
